@@ -1,7 +1,8 @@
 # openemr_RCE_5.0.2
 ## Description
-This exploit drop a web shell on an OpenEMR v5.0.2.1 CMS. At the end, GET the URL and run a netcat listener on the LHOST:LHPORT. You will be able to do a Remote
+This exploit drop a web shell on an OpenEMR v5.0.2.1 CMS. At the end, GET the URL and run a netcat listener on the LHOST:LPORT. You will be able to do a Remote
 Code Execution on this server.
+You need to wait the Admin to change his password and it'll trigger the XSS.
 
 ## Usage
 ```
